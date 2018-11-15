@@ -22,9 +22,7 @@ Django 2.1
 
 ## Requirements
 
-#### Create a newsletter sign up page that allows someone to enter their
-#### email address and choose their location from a list of top 100 cities in
-#### US by population.
+#### Create a newsletter sign up page that allows someone to enter their email address and choose their location from a list of top 100 cities in US by population.
 
 I used a form created by [Ally Reid](https://foundation.zurb.com/building-blocks/blocks/simple-subscription-form.html). The top 100 cities are taken from Wikipedia and constructed into `/base/load_cities.py` using regular expressions.
 
