@@ -28,6 +28,6 @@ I used a form created by [Ally Reid](https://foundation.zurb.com/building-blocks
 
 #### Create a Django management command to send a personalized email to each email address in the list. For each recipient, fetch the current weather for that recipient's location and compare that to historical weather.
 
-I chose to fetch weather data from `https://www.worldweatheronline.com`
+I chose to fetch weather data from `https://www.worldweatheronline.com`.
 I also added `activation_date` and `active` properties for the users. These
 can be useful for historical data.
