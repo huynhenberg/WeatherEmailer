@@ -16,7 +16,7 @@ Locale.objects.bulk_create(
     Locale(city='San Francisco', state_province_code='CA'),
     Locale(city='Columbus', state_province_code='OH'),
     Locale(city='Fort Worth', state_province_code='TX'),
-    Locale(city='Indianapolis', state_province_code='IN'),
+    Locale(city='INpolis', state_province_code='IN'),
     Locale(city='Charlotte', state_province_code='NC'),
     Locale(city='Seattle', state_province_code='WA'),
     Locale(city='Denver', state_province_code='CO'),
