@@ -10,7 +10,7 @@ Django 2.1
 
 ## Instructions
 
-1. Navigate to [repo](https://github.com/huynhenberg/weather-emailer)
+1. Navigate to [repo](https://github.com/huynhenberg/WeatherEmailer.git)
 2. Clone locally using
    `git clone https://github.com:huynhenberg/weather-emailer.git`
 3. Start your server using `python manage.py runserver`
