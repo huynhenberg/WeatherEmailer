@@ -15,7 +15,7 @@ Django 2.1
    `git clone https://github.com:huynhenberg/weather-emailer.git`
 3. Start your server using `python manage.py runserver`
 4. Navigate to the app in [browser](http://127.0.0.1:8000/subscribe/)
-5. Use the [admin interface](http://127.0.0.1:8000/admin/) to send emails
+5. Use the [admin interface](http://127.0.0.1:8000/admin/) to send emails.
    Username `admin`
    Password `admin`
 6. Enjoy!
