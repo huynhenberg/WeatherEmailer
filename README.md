@@ -26,9 +26,7 @@ Django 2.1
 
 I used a form created by [Ally Reid](https://foundation.zurb.com/building-blocks/blocks/simple-subscription-form.html). The top 100 cities are taken from Wikipedia and constructed into `/base/load_cities.py` using regular expressions.
 
-#### Create a Django management command to send a personalized email to each
-#### email address in the list. For each recipient, fetch the current weather
-#### for that recipient's location and compare that to historical weather.
+#### Create a Django management command to send a personalized email to each email address in the list. For each recipient, fetch the current weather for that recipient's location and compare that to historical weather.
 
 I chose to fetch weather data from `https://www.worldweatheronline.com`
 I also added `activation_date` and `active` properties for the users. These
