@@ -1,0 +1,26 @@
+{% load static %}
+
+<link rel='stylesheet' type='text/css' href='{% static 'subscription/style.css' %}'>
+
+
+<div class='simple-subscription-form'>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+  <form action='{% url 'subscription:submit' %}' method='post'>
+    <h1>Weather Powered Email</h1>
+    <p>Receive weather updates and discounts. Simply enter your email and location below:
+    {% csrf_token %}
+    <div class='input-group-label'>
+      <span class='input-group-label'>
+        <i class='fa fa-envelope'></i>
+      </span>
+<input class='input-group-field' type='email' name='email' placeholder='Email' required>
+    location: <select name = 'locale_id'>
+    {% for locale in locale_list %}
+        <option value='{{ locale.id }}'>{{ locale }}</option>
+    {% endfor %}
+    </select>
+    <button class='button'>Subscribe</button>
+  </form>
+</div>
+
